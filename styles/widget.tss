@@ -1,0 +1,71 @@
+".container":
+{
+     height: "45",
+     left: "5%",
+     right:"5%",
+     width:"90%",
+      paddingLeft: 1
+}
+
+".pickerBox":
+{
+    right: 45,
+    height: 45,
+    left: 1
+}
+
+".pickerBox[platform=android]":
+{
+  //  right: 7.5,
+   //left: 5,
+   width: "95%"
+}
+
+".pickerBox[platform=ios]":
+{
+    right: 53
+}
+
+".horizontal":
+{
+    layout: "horizontal"
+}
+
+".fontLarge":
+{
+    font:
+    {
+        fontSize:16
+    }
+}
+
+".foregroundBlue":
+{
+    color:"#366f90"
+}
+
+".foregroundBlack":
+{
+    color:"#666666"
+}
+
+".hintTextLightGray":
+{
+    hintTextColor:"#c4c4c4",
+}
+
+".borderCurved":
+{
+    borderRadius: 5
+}
+
+".borderWhite":
+{
+    borderColor:"#fff"
+}
+
+".backgroundTransparent":
+{
+    backgroundColor:"transparent"
+}
+

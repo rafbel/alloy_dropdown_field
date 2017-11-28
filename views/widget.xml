@@ -1,0 +1,11 @@
+<Alloy>
+    <View class="container borderCurved borderTransparent backgroundWhite" id="viewContainer" platform="ios" top="10">
+        <Label class="pickerBox fontLarge foregroundBlack backgroundTransparent" id="labelFieldText" text="Aguarde..."/>
+        <View bubbleParent="false" class="backgroundTransparent" height="45" id="viewDropdownIconHolder" right="7.5" width="45"/>
+    </View>
+    <View class="container backgroundWhite borderCurved" id="pickerWrapper" platform="android" top="10">
+        <Picker class="pickerBox" id="picker">
+            <PickerColumn id="pickerColumn"/>
+        </Picker>
+    </View> 
+</Alloy>
